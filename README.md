@@ -73,9 +73,9 @@ cp -r dolibarr /var/www/html/dolibarr
 chown -R www-data:www-data /var/www/html/dolibarr/
 chmod -R 775 /var/www/html/dolibarr/
 cp /var/www/htmldolibar/htdocs/conf/conf.php.example /var/www/htmldolibar/htdocs/conf/conf.php
-chmod 777 /var/www/htmldolibar/htdocs/conf/conf.php
-mkdir /var/www/htmldolibar/documents 
-chmod -R 777 /var/www/htmldolibar/documents
+chmod 777 /var/www/html/dolibar/htdocs/conf/conf.php
+mkdir /var/www/html/dolibar/documents 
+chmod -R 777 /var/www/html/dolibar/documents
 ```
 
 ## Apache2 Configuration Virtual Host
