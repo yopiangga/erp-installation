@@ -72,10 +72,10 @@ git clone https://github.com/dolibarr/dolibarr
 cp -r dolibarr /var/www/html/dolibarr
 chown -R www-data:www-data /var/www/html/dolibarr/
 chmod -R 775 /var/www/html/dolibarr/
-cp /var/www/html/dolibar/htdocs/conf/conf.php.example /var/www/html/dolibar/htdocs/conf/conf.php
-chmod 777 /var/www/html/dolibar/htdocs/conf/conf.php
-mkdir /var/www/html/dolibar/documents 
-chmod -R 777 /var/www/html/dolibar/documents
+cp /var/www/html/dolibarr/htdocs/conf/conf.php.example /var/www/html/dolibarr/htdocs/conf/conf.php
+chmod 777 /var/www/html/dolibarr/htdocs/conf/conf.php
+mkdir /var/www/html/dolibarr/documents 
+chmod -R 777 /var/www/html/dolibarr/documents
 ```
 
 ## Apache2 Configuration Virtual Host
